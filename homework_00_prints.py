@@ -57,10 +57,10 @@ def tarea0():
     # You must return a list with
     # median rounded to 4 decimals
     # var_95 rounded to 6 decimals
-    # is_normal 
-    
+    # is_normal
+
     #If you have any questions, see our video on Youtube
-    return 
+    return np.round(dm.median,4), np.round(dm.var_95,6), dm.is_normal
 
 
 #NO MODIFICAR
